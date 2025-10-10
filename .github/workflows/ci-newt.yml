@@ -1,0 +1,19 @@
+name: CI (snowflake tests)
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+      - run: pnpm i --frozen-lockfile
+      - run: pnpm build-test
+      - run: pnpm test:snowflake
+      - run: pnpm exec playwright install --with-deps
+      - run: pnpm e2e:snowflake

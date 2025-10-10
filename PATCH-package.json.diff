@@ -1,0 +1,9 @@
+--- a/package.json
++++ b/package.json
+@@
+   "scripts": {
++    "test:snowflake": "vitest -c vitest.snowflake.config.ts",
++    "test:snowflake:ui": "vitest -c vitest.snowflake.config.ts --ui",
++    "e2e:snowflake": "playwright test -c playwright.snowflake.config.ts",
++    "ci:snowflake": "pnpm test:snowflake && pnpm e2e:snowflake"
+   }

@@ -1,0 +1,12 @@
+{
+  "chat.showHistory": true,
+  "chat.promptFiles.recommendations": [
+    "${workspaceFolder}/prompts/plan.chat-mode.md",
+    "${workspaceFolder}/prompts/components.agent-mode.md"
+  ],
+  "chat.tools.useFullyQualifiedNames": true,
+  "editor.formatOnSave": true,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "vitest.enable": true,
+  "chat.promptFiles": true
+}

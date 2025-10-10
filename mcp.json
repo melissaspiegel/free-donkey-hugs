@@ -1,0 +1,27 @@
+{
+  "name": "snowflake-mcp",
+  "version": "0.1.0",
+  "transport": { "type": "sse", "url": "http://localhost:3845/mcp" },
+  "tools": [
+    {
+      "name": "snowflake.attachments.list",
+      "description": "List attachments by subjectId",
+      "inputSchema": {
+        "type": "object",
+        "properties": { "subjectId": { "type": "string" } },
+        "required": ["subjectId"],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "snowflake.attachments.delete",
+      "description": "Delete attachment by id",
+      "inputSchema": {
+        "type": "object",
+        "properties": { "id": { "type": "string" } },
+        "required": ["id"],
+        "additionalProperties": false
+      }
+    }
+  ]
+}

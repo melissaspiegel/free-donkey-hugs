@@ -1,0 +1,19 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "EditorConfig.EditorConfig",
+    "esbenp.prettier-vscode",
+    "graphql.vscode-graphql-syntax",
+    "rust-lang.rust-analyzer",
+    "tamasfe.even-better-toml",
+    "vitest.explorer",
+    "zdhxiong.mdui",
+    "bierner.lit-html",
+    "GitHub.copilot",
+    "pmattheew.the-lit-programmer",
+    "ms-vscode.vscode-ai",
+    "github.copilot-chat",
+    "github.vscode-pull-request-github",
+    "ms-playwright.playwright"
+  ]
+}
