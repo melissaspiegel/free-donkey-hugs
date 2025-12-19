@@ -22,7 +22,7 @@ A delightful collection of AI agent friends that provide companionship, assistan
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/free-donkey-hugs.git
+git clone https://github.com/melissaspiegel/free-donkey-hugs.git
 cd free-donkey-hugs
 ```
 
